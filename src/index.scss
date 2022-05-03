@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #E7F6FF;
+}
+
+.wrapper {
+  background: #FFFFFF;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04);
+  border-radius: 20px;
+  max-width: 1080px;
+  margin: 85px auto;
+  padding-bottom: 70px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+
+  li {
+    list-style: none;
+  }
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+footer {
+  position: relative;
+  width: 100%;
+}
+
+img {
+  max-width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  padding: 45px;
+  border-bottom: 1px solid #EAEAEA;
+}
+
+.headerTitle {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.header__item {
+  margin-right: 30px;
+}
+
+.content {
+  padding: 40px 60px 0;
+}
+
+.sneakers {
+  margin-top: 40px;
+  display: flex;
+}
+
+.card {
+  border: 1px solid #F3F3F3;
+  box-sizing: border-box;
+  border-radius: 40px;
+  padding: 25px;
+  width: 210px;
+  margin-right: 40px;
+}
+
+.card:last-child{
+  margin-right: 0;
+}
+
+.card__title {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  margin-top: 14px;
+}
+
+.card__bottom {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 14px;
+}
+
+.card__price {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.card__price-text {
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 13px;
+  text-transform: uppercase;
+  color: #BDBDBD;
+}
+
+.card__value {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  margin-top: 2px;
+}
+
+.card__btn {
+  background: #FFFFFF;
+  border: 1px solid #F2F2F2;
+  box-sizing: border-box;
+  border-radius: 8px;
+  cursor: pointer;
+  outline: none;
+  height: 32px;
+  width: 32px;
+  transition: .5s;
+}
+
+.card__btn:hover {
+  border: 1px solid #838080;
+}
